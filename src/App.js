@@ -1,9 +1,10 @@
 import './App.css';
+import Launches from "./components/launches"
 
 function App() {
   return (
     <div className="App">
-      <h2>spaceX launches App</h2>
+      <Launches />
     </div>
   );
 }
