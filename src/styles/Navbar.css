@@ -3,9 +3,11 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    background-color: #000;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
+   opacity: 3;    
+
 }
 .image_container {
     height: 35px;
@@ -15,6 +17,7 @@
 .image_container>img {
     height: 100%;
     width: auto;
+
 }
 .image_container>img:hover {
     cursor: pointer;
