@@ -1,10 +1,10 @@
 import './App.css';
-import Launches from "./components/launches"
+import Homepage from "./components/homepage";
 
 function App() {
   return (
     <div className="App">
-      <Launches />
+      <Homepage />
     </div>
   );
 }

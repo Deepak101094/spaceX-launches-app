@@ -1,8 +1,8 @@
 import React from 'react'
 import "../../styles/Navbar.css";
-import logo from "../../assets/images/spacexlogo.png";
+import logo from "../../assets/images/spacex-logo-png.png";
 
-const index = () => {
+const Navbar = () => {
     return (
         <div className="navbar">
             <div className="image_container">
@@ -12,4 +12,4 @@ const index = () => {
     )
 }
 
-export default index;
+export default Navbar;
