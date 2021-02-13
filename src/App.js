@@ -1,9 +1,10 @@
 import './App.css';
+import Homepage from "./components/homepage";
 
 function App() {
   return (
     <div className="App">
-      <h2>spaceX launches App</h2>
+      <Homepage />
     </div>
   );
 }

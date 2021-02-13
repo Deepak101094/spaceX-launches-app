@@ -1,0 +1,49 @@
+
+
+.modal {
+    align-items: center;
+    top: 20%;
+}
+.modal_head_content {
+    display: flex;
+}
+.modal_head_content>img {
+    height: 60px;
+    width: 60px;
+    margin: 0px 20px;
+}
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -10px;
+}
+.icon>a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.i_new {
+    margin-right: 5px;
+}
+.i_wiki {
+    margin-right: 5px;
+    color: blue
+}
+.i_youtube {
+    color: red;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+.modal-detail {
+    display: flex;
+    flex-direction: column;
+
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.font {
+    font-weight: bold;
+}
